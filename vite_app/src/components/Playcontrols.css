@@ -1,0 +1,132 @@
+
+.container3{
+    display: grid;
+    margin-top: -427px;
+    margin-left: 305px;
+    width: 1160px;
+    height: 200px;
+    column-gap: 45px;
+    grid-template-columns: 261px  261px 261px 261px;
+
+}
+
+.child{
+    /* border: 2px solid white; */
+    margin-top: -71px;
+    margin-left: 0px;
+    height: 73px;
+    width: 240px;
+    background-color: rgb(58, 57, 57);
+}
+.images{
+    margin-left: 1043px;
+    margin-top: 7px;
+}
+.container2{
+    display: grid;
+    /* border: 2px solid white; */
+    margin-left: 274px;
+    margin-top: -670px;
+    height: 650px;
+    background-color: rgb(32, 31, 31);
+}
+.arrows{
+    height: 30px;
+    width: 89px;
+    margin-top: -237px;
+    margin-left: 30px;
+}
+.Good{
+    font-size: 2rem;
+    color: white;
+    margin-top: -369px;
+    margin-left: 28px;
+}
+
+
+.images2{
+    height: 73px;
+    width: 65px;
+}
+
+.text2{
+    color: white;
+    margin-left: 90px;
+    margin-top: -45px;
+}
+.container4{
+    /* border: 2px solid white; */
+    height: 316px;
+    width: 1171px;
+    margin-top: 0px;
+    margin-left: 304px;
+    display: grid;
+    column-gap: 30px;
+    grid-template-columns: 165px 165px 165px 165px 165px 165px;
+}
+.child2{
+    height: 200px;
+    /* border: 2px solid white; */
+}
+.Shows{
+    font-size: 1.5rem;
+    color: white;
+    margin-left: 304px;
+    margin-top: -38px;
+}
+.images3{
+    height: 162px;
+    width: 162px;
+}
+.text3{
+    color: white;
+    font-size: 18px;
+    margin-top: 2px;
+}
+.container5{
+    /* border: 2px solid white; */
+    height: 100px;
+    margin-top: -127px;
+    background-color: rgb(37, 37, 36);
+}
+.images4{
+    height: 100px;
+    width: 100px;
+}
+.images5{
+    height: 66px;
+    margin-left: 306px;
+    margin-top: -102px;
+}
+.images6{
+    height: 36px;
+    margin-left: 120px;
+    margin-top: -92px;
+    margin-bottom: 24px;
+}
+.on{
+    color: white;
+        margin-left: 120px;
+        margin-top: -70px
+}
+.img14{
+    height: 20px;
+    width: 20px; 
+    margin-left: 118px;
+    margin-top: -10px
+}
+.green{
+    background-color: rgb(16, 183, 16);
+    height: 2vh;
+    margin-top: -2vh;
+}
+.install{
+    margin-top: 5px;
+}.par{
+    color:black;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: right;
+    margin-right: 5vw;
+    
+}

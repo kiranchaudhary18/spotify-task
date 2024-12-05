@@ -1,0 +1,116 @@
+.white{
+    background-color: black;
+}
+
+.logo{
+    height: 44px;
+    width: 156px;
+    margin-top: 8px;
+    margin-left: 18px
+}
+/* .icons{
+    height: 23px;
+    width: 23px;
+    margin-top: 14px;
+    margin-left: 10px;
+    color: white;
+        margin-left: 20px;
+        margin-top: 35px
+} */
+
+.icons{
+    height: 23px;
+    width: 23px;
+    margin-top: 14px;
+    margin-left: 10px;
+    color: white;
+        margin-left: 20px;
+        margin-top: 35px
+}
+.app{
+    color: white;
+    margin-left: 66px;
+    margin-top: -20px
+}
+.img1{
+    margin-left: 18px;
+    margin-top: -16px;
+}
+.img2{
+    margin-top: -26px;
+    margin-left: 18px
+}
+.img3{
+    margin-top: -25px;
+    margin-left: 18px;
+}
+.img4{
+    margin-top: -10px;
+    margin-left: 18px
+}
+.img5{
+    margin-top: -22px;
+    margin-left: 18px
+}
+.img6{
+    margin-top: -23px;
+    margin-left: 18px
+}
+/* .text{
+    color: white;
+    margin-top: -35px;
+    margin-left: 55px;
+} */
+.text0{
+    color: white;
+    margin-top: -25px;
+    margin-left: 55px;
+}
+.text01{
+    color: white;
+    margin-top: -25px;
+    margin-left: 55px;
+}
+.text02{
+    color: white;
+    margin-top: -25px;
+    margin-left: 55px;
+}
+.text03{
+    color: white;
+    margin-top: -25px;
+    margin-left: 55px;
+}
+.text04{
+    color: white;
+    margin-top: -25px;
+    margin-left: 55px;
+}
+.text05{
+    color: white;
+    margin-top: -25px;
+    margin-left: 55px;
+}
+.text1{
+    color: white;margin-left: 23px;
+    margin-top: 35px;
+}
+.text10{
+    color: white;
+    margin-left: 23px
+}
+.text11{
+    color: white;
+    margin-left: 23px
+}
+.text4{
+    color: white;
+    margin-left: 23px
+}
+.text5{
+    color: white;
+    margin-left: 23px
+}.text6{
+    color: white;
+    margin-left: 23px
+}
