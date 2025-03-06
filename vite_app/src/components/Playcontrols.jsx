@@ -1,5 +1,6 @@
 
 
+import React, { useEffect,useState } from 'react';
 import './Playcontrols.css'
 
 function Playcontrols(){
@@ -15,16 +16,26 @@ function Playcontrols(){
     
     ]
 
-    const name=[
-        {img_url:"https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image9.png?raw=true",title:'k/da'},
-        {img_url:"https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image8.png?raw=true",title:'k/da'},
-        {img_url:"https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image7.png?raw=true",title:'k/da'},
-        {img_url:"https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image6.png?raw=true",title:'k/da'},
-        {img_url:"https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image5.png?raw=true",title:'k/da'},
-        {img_url:"https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image10.png?raw=true",title:'k/da'}
+    // const name=[
+    //     {id:1 , img_url:"https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image9.png?raw=true",title:'k/da'},
+    //     {id:2 , img_url:"https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image8.png?raw=true",title:'k/da'},
+    //     {id:3 , img_url:"https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image7.png?raw=true",title:'k/da'},
+    //     {id:4 , img_url:"https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image6.png?raw=true",title:'k/da'},
+    //     {id:5 , img_url:"https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image5.png?raw=true",title:'k/da'},
+    //     {id:6 , img_url:"https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image10.png?raw=true",title:'k/da'}
     
     
-    ]
+    // ]
+
+    // const even = name.filter(j => j.id%2==0)
+
+    const [six,setsix]=useState([]);
+    useEffect(() =>{
+        fetch('http://localhost:3000/name')
+        .then((response) => response.json())
+        .then((data) =>setsix(data) )
+        .catch((error) => console.log(error) )
+    } );
 
     return (
         <>
@@ -81,11 +92,18 @@ function Playcontrols(){
         <div className="child2"><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image5.png?raw=true" alt="" className="images3"/><p className="text3">The Stories of Ma...</p></div>
         <div className="child2"><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image10.png?raw=true" alt="" className="images3"/><p className="text3">Motivation Daily b...</p></div> */}
    
-   {name.map((i)=>(
+   {/* {name.map((i)=>(
         <div key={i.id} className="child2" >
             
             <img className="images3" src={i.img_url} alt="" />
             <p className="text3">title:{i.title}</p>
+        </div>
+    ))} */}
+   {six.map( j =>(
+        <div key={j.id} className="child2" >
+            
+            <img className="images3" src={j.img_url} alt="" />
+            <p className="text3">title:{j.title}</p>
         </div>
     ))}
    
